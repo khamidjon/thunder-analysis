@@ -50,6 +50,8 @@ analyzer:
     use_is_even_rather_than_modulo: warning
     use_named_constants: warning
     use_super_parameters: warning
+    prefer_const_declarations: warning
+    prefer_const_constructors: warning
 
   exclude:
     - test/
@@ -63,6 +65,7 @@ analyzer:
 linter:
   rules:
     - prefer_const_declarations
+    - prefer_const_constructors
     - avoid_catches_without_on_clauses
     - avoid_catching_errors
     - cancel_subscriptions
