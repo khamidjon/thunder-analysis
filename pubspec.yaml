@@ -1,4 +1,4 @@
-name: ss_analysis
+name: thunder_analysis
 description: This package provides Dart linter rules which are used in FoodFirstNetwork app.
 
 environment:
